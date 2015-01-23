@@ -14,7 +14,11 @@ function variableModification(a) {
   var asString;
   var yourNumberIs;
   //your code here
+  plus5 = 5 + a;
+  asString = String(a);
+  yourNumberIs = "Your Number is" +a;
 
+  a = parseInt(a,10);	
   //end your code
   return [plus5, asString, yourNumberIs, a];
 }
