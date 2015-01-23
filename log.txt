@@ -1,5 +1,10 @@
-You log goes in this  file
+Log goes in this  file
 
 Start: Thr, 22 Jan 2015 00:49:00 -0800
 End: Thr, 22 Jan 2015 02:00:00 -0800
 Tasks: Re-clone repository.
+
+
+Start: Fri, 23 Jan 2015 01:30:00 -0800
+End: Fri, 22 Jan 2015 02:25:00 -0800
+Tasks: Write function in variable file.
