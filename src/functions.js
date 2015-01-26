@@ -13,6 +13,10 @@
 */
 
 //your code here
+function  uselessFunction(){
+  var answer = null;
+  return answe;;
+}
 
 //end your code
 
@@ -30,7 +34,10 @@ var barType = typeof bar;
 */
 
 //your code here
+function(float){
 
+
+}
 //end your code
 
 /**
