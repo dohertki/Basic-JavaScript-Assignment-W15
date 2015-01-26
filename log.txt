@@ -3,3 +3,12 @@ You log goes in this  file
 Start: Thr, 22 Jan 2015 00:49:00 -0800
 End: Thr, 22 Jan 2015 02:00:00 -0800
 Tasks: Re-clone repository.
+
+
+
+
+
+Start: Sun, 252 Jan 2015 11:30:00 -0800
+End: Mon, 26 Jan 2015 02:45:00 -0800
+Tasks: Work on functions.
+
