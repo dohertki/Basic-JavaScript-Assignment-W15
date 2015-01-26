@@ -46,6 +46,14 @@ return true if c is null, false otherwise
 */
 function isNull(c) {
   //your code here
-  return undefined;
-  //end your code
+  
+  if(c === null){
+
+    return true;
+
+  }else{
+
+  return false;
 }
+  //end your code
+};
