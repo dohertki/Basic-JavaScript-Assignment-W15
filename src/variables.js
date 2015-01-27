@@ -16,7 +16,7 @@ function variableModification(a) {
   //your code here
   plus5 = 5 + a;
   asString = String(a);
-  yourNumberIs = "Your Number is" +a;
+  yourNumberIs = "Your Number is" + " " + a;
 
   a = parseInt(a,10);	
   //end your code
@@ -34,13 +34,14 @@ false otherwise
 function isString(b) {
   
   //your code here
-  if( isNaN(d)) {
+  if( !isNaN(b)) {
     return false;
-  }else if(d == null){
+  }else if(b == null){
     return false;
+ // }else if(typeof(b) == 'string'){
+ //   return true;
   }else{
-    return true;
-  }e
+    retrun false;
 }
 
 /*
