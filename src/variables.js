@@ -32,9 +32,15 @@ return true if b is a primitive string value (also known as a string literal),
 false otherwise
 */
 function isString(b) {
+  
   //your code here
-  return undefined;
-  //end your code
+  if( isNaN(d)) {
+    return false;
+  }else if(d == null){
+    return false;
+  }else{
+    return true;
+  }e
 }
 
 /*
@@ -54,6 +60,6 @@ function isNull(c) {
   }else{
 
   return false;
-}
+ }
   //end your code
 };

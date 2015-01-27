@@ -5,6 +5,16 @@ End: Thr, 22 Jan 2015 02:00:00 -0800
 Tasks: Re-clone repository.
 
 
+<<<<<<< HEAD
 Start: Fri, 23 Jan 2015 01:30:00 -0800
 End: Fri, 22 Jan 2015 02:25:00 -0800
 Tasks: Write function in variable file.
+=======
+
+
+
+Start: Sun, 252 Jan 2015 11:30:00 -0800
+End: Mon, 26 Jan 2015 02:45:00 -0800
+Tasks: Work on functions.
+
+>>>>>>> ed2a115b0424fa91ea83e8fef341792ea4dd9ff5
