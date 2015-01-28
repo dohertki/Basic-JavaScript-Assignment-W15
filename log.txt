@@ -17,4 +17,26 @@ Start: Sun, 252 Jan 2015 11:30:00 -0800
 End: Mon, 26 Jan 2015 02:45:00 -0800
 Tasks: Work on functions.
 
+
+Start: Wed, 27 Jan 2015 00:30:00
+End: Wed, 27 Jan 2015 03:19:00
+Task try to remove errors from function.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 >>>>>>> ed2a115b0424fa91ea83e8fef341792ea4dd9ff5

@@ -38,15 +38,16 @@ function isString(b) {
     return false;
   }else if(b == null){
     return false;
- // }else if(typeof(b) == 'string'){
- //   return true;
+  }else if(typeof(b) === 'string'){
+    return true;
   }else{
-    retrun false;
+    return false;
+  }
 }
-
 /*
 Input:
 c: could be anything
+
 
 Output:
 return true if c is null, false otherwise
@@ -63,4 +64,4 @@ function isNull(c) {
   return false;
  }
   //end your code
-};
+}

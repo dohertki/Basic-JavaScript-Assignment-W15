@@ -13,9 +13,9 @@
 */
 
 //your code here
-function  uselessFunction(){
-  var answer = null;
-  return answe;;
+function  uselessFunction() {
+  
+  return null;
 }
 
 //end your code
@@ -34,8 +34,23 @@ var barType = typeof bar;
 */
 
 //your code here
-function(float){
+var bar = function(doubleArray){
 
+  for( i = 0; i < doubleArray.length; i++){
+    
+     doubleArray[i] = doubleArray[i] * 2;
+  }   
+
+  for( i = 0; i < doubleArray.length; i++){
+   	
+	if((doubleArray[i] % 2) != 0 ){
+        
+      return false;
+    }
+
+ }
+ 
+ return true; 
 
 }
 //end your code

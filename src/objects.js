@@ -10,9 +10,20 @@
 
 function returnObjectLiteral() {
   //your code here
-  return undefined; //Modify ONLY this line
-  //end your code
+  var inObject ={
+    type: 'Goldfish',
+    brand: "Pepperidge Farm",
+    flavor: "Cheddar",
+    count: 2000
+  };
+
+  return inObject;
 }
+
+
+ //Modify ONLY this line
+  //end your code
+
 
 /**
 * Create a constructor function for a `MessageLog` object.
