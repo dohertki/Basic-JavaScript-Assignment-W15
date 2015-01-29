@@ -1,4 +1,4 @@
-/**
+/*
 * Create an object literal with the following key value pairs:
 * type: {string} 'Goldfish'
 * brand: {string} 'Pepperidge Farm'
@@ -49,6 +49,48 @@ function returnObjectLiteral() {
 */
 
 //your code here
+function MessageLog(user){
+
+  myRcvMsg = new Array;
+  mySentMsg = new Array;
+  this.user = user;
+  this.totalSent = totalS;
+  this.totalReceived = totalR;
+  this.logMessage = logM;
+};
+
+
+function logM(messageText, direction){
+
+  if(direction == 1 ){
+    myRcvMsg.push(messageText);
+  }else if(direction == 0){
+    mySentMsg.push( messageText);
+  }
+
+  return 0;
+
+}
+
+function totalR(){
+
+   return myRcvMsg.length;
+}
+
+
+function totalS(){
+
+
+   return mySentMsg.length;
+
+}
+
+function getSentMessage(n){
+
+  return mySentMsg[n];
+
+}
+
 
 //end your code
 
@@ -69,4 +111,18 @@ function returnObjectLiteral() {
 
 //your code here
 
+ var myLog = new MessageLog("BlackHatGuy");
+
+  myLog.logMessage("foo",1);
+  myLog.logMessage("bar",1);
+  myLog.logMessage("baz",1);
+
+
 //end your code
+
+
+
+
+
+
+
