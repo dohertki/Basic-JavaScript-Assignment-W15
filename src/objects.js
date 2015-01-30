@@ -50,20 +50,22 @@ function returnObjectLiteral() {
 
 //your code here
 function MessageLog(user){
-
-  myRcvMsg = new Array;
-  mySentMsg = new Array;
+  
+  this.rcv = [];
+  this.sent = [];
   this.user = user;
   this.totalSent = totalS;
   this.totalReceived = totalR;
   this.logMessage = logM;
+  this.lastReceivedMessage = lastReceivedMsg;
+  this.mySentMsg = getSentMessage;
 };
 
 
 function logM(messageText, direction){
 
   if(direction == 1 ){
-    myRcvMsg.push(messageText);
+    this.rcv.push(messageText);
   }else if(direction == 0){
     mySentMsg.push( messageText);
   }
@@ -74,20 +76,20 @@ function logM(messageText, direction){
 
 function totalR(){
 
-   return myRcvMsg.length;
+   return this.rcv.length;
 }
 
 
 function totalS(){
 
 
-   return mySentMsg.length;
+   return this.sent.length;
 
 }
 
 function getSentMessage(n){
 
-  return mySentMsg[n];
+  return sent[n];
 
 }
 
@@ -100,6 +102,13 @@ function getSentMessage(n){
 * received.
 */
 //your code here
+function lastReceivedMsg(){
+ 
+  return this.rcv.pop();
+
+}
+
+
 
 //end your code
 
